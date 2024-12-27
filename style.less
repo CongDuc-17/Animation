@@ -1,0 +1,413 @@
+body {
+  background-color: black;
+}
+.set1 {
+  display: flex;
+  justify-content: space-evenly;
+  // Lily----------------------------------------------
+  .Lily {
+    width: 480px;
+    height: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+    .background {
+      width: 100%;
+      height: 100%;
+      background-color: red;
+      opacity: 0.5;
+      object-fit: fill;
+      overflow: hidden;
+      position: absolute;
+
+      img {
+        width: 120%;
+        height: 100%;
+        position: absolute;
+        left: -60px;
+      }
+    }
+
+    .title {
+      font-size: 30px;
+      color: white;
+      left: 40px;
+      bottom: 70px;
+      position: absolute;
+      transition: 0.5s;
+    }
+    .name {
+      font-weight: 800;
+    }
+    .text {
+      font-size: 14px;
+      padding-left: 40px;
+      color: white;
+      position: absolute;
+      bottom: 50px;
+      opacity: 0;
+      transition: 0.4s;
+    }
+  }
+
+  .Lily:hover .background {
+    opacity: 1;
+  }
+  .Lily:hover .background img {
+    left: -50px;
+    transition: 0.5s;
+  }
+  .Lily:hover .title {
+    bottom: 110px;
+    transition: 0.5s;
+  }
+  .Lily:hover .text {
+    bottom: 80px;
+    opacity: 1;
+    transition: 0.5s;
+  }
+  // Sarah----------------------------------------------
+  .Sarah {
+    width: 480px;
+    height: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+    .background {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      object-fit: fill;
+      overflow: hidden;
+      position: absolute;
+      background-color: red;
+
+      img {
+        width: 120%;
+        height: 100%;
+        position: absolute;
+        left: -30px;
+      }
+    }
+
+    .title {
+      font-size: 30px;
+      color: white;
+      left: 40px;
+      top: 60px;
+      position: absolute;
+      border-bottom: 4px solid white;
+      right: 40px;
+      width: 0px;
+      transition: 0.5s;
+    }
+    .name {
+      font-weight: 800;
+    }
+
+    .text {
+      font-size: 14px;
+      padding-left: 40px;
+      color: white;
+      position: absolute;
+      top: 115px;
+      opacity: 1;
+      right: 40px;
+      left: 200px;
+      opacity: 0;
+      transition: 0.4s;
+    }
+  }
+
+  .Sarah:hover .background img {
+    opacity: 0.5;
+    left: 0px;
+    transition: 0.5s;
+  }
+  .Sarah:hover .title {
+    width: 80%;
+    transition: 0.5s;
+  }
+  .Sarah:hover .text {
+    opacity: 1;
+    transition: 0.5s;
+    left: 0px;
+  }
+
+  // MILO----------------------------------------------
+  .Milo {
+    width: 480px;
+    height: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+
+    .background {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      // object-fit: fill;
+      overflow: hidden;
+      position: absolute;
+      background-color: rgb(227, 251, 122);
+
+      img {
+        width: 110%;
+        height: 100%;
+        position: absolute;
+        left: -30px;
+        object-fit: cover;
+        transform: scale(1.1);
+      }
+    }
+
+    .title {
+      font-size: 30px;
+      color: white;
+      right: 40px;
+      bottom: 30px;
+      position: absolute;
+      right: 40px;
+    }
+    .name {
+      font-weight: 800;
+    }
+
+    .text {
+      text-align: right;
+      border-right: 3px solid white;
+      padding-right: 10px;
+      font-size: 14px;
+      padding-left: 40px;
+      color: white;
+      position: absolute;
+      top: 50px;
+      opacity: 0;
+      left: 0px;
+      transition: 0.4s;
+    }
+  }
+
+  .Milo:hover .background img {
+    opacity: 0.5;
+    left: 0px;
+    transition: 0.5s;
+    transform: scale(1);
+  }
+  .Milo:hover .text {
+    opacity: 1;
+    transition: 0.5s;
+    left: 30px;
+  }
+}
+
+// ------------------------SET 2-------------------------//
+.set2 {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 15px;
+  // Selena----------------------------------------------
+  .Selena {
+    width: 480px;
+    height: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .background {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      object-fit: fill;
+      overflow: hidden;
+      position: absolute;
+      background-color: white;
+
+      img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+        object-fit: fill;
+      }
+    }
+    .title {
+      font-size: 30px;
+      color: white;
+      position: absolute;
+      top: 60px;
+      transition: 0.5s;
+    }
+    .name {
+      font-weight: 800;
+    }
+
+    .text {
+      color: white;
+      position: absolute;
+      top: 80px;
+      opacity: 0;
+      transition: 0.4s;
+    }
+  }
+  .Selena:hover .background img {
+    opacity: 1;
+    left: 0px;
+    transition: 0.5s;
+    transform: scale(0.92);
+  }
+  .Selena:hover .title {
+    opacity: 1;
+    top: 40px;
+    transition: 0.5s;
+  }
+  .Selena:hover .text {
+    opacity: 1;
+    transition: 0.5s;
+  }
+  // STEVE----------------------------------------------
+  .Steve {
+    width: 480px;
+    height: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .background {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      object-fit: fill;
+      overflow: hidden;
+      position: absolute;
+      background-color: white;
+
+      img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+
+        object-fit: fill;
+      }
+    }
+    .title {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      color: black;
+      position: absolute;
+      top: 110px;
+      background-color: white;
+      width: 400px;
+    }
+    .name {
+      font-weight: 800;
+    }
+
+    .text {
+      font-size: 14px;
+      font-weight: 600;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      color: black;
+      background-color: white;
+      position: absolute;
+      top: 170px;
+      padding-block: 10px;
+      transition: 0.3s;
+      opacity: 0;
+    }
+  }
+  .Steve:hover .background {
+    opacity: 1;
+    left: 0px;
+    transition: 0.5s;
+    transform: scale(1.03);
+  }
+
+  .Steve:hover .text {
+    opacity: 1;
+    transition: 0.4s;
+  }
+
+  // DUKE----------------------------------------------
+  .Duke {
+    width: 480px;
+    height: 360px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    .background {
+      width: 100%;
+      height: 100%;
+      opacity: 1;
+      object-fit: fill;
+      overflow: hidden;
+      position: absolute;
+      background-color: white;
+
+      img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        object-fit: fill;
+      }
+    }
+    .title {
+      font-size: 26px;
+      color: white;
+      position: absolute;
+      top: 50px;
+      transition: 0.15s;
+    }
+    .name {
+      font-weight: 700;
+      font-size: 26px;
+      transition: 0.15s;
+    }
+
+    .text {
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      width: 400px;
+      color: white;
+      position: absolute;
+      bottom: 50px;
+      padding-block: 10px;
+      transition: 0.2s;
+      opacity: 0;
+      border: 4px solid white;
+      width: 380px;
+      padding: 20px;
+    }
+  }
+  .Duke:hover .background img {
+    opacity: 0.5;
+    left: 0px;
+    transition: 0.15s;
+    transform: scale(2);
+  }
+  .Duke:hover .background {
+    background: linear-gradient(to bottom right, red, white, yellow);
+  }
+  .Duke:hover > .title {
+    font-size: 30px;
+    transition: 0.15s;
+  }
+  .Duke:hover .name {
+    font-size: 30px;
+    transition: 0.3s;
+  }
+
+  .Duke:hover .text {
+    opacity: 1;
+    padding: 30px;
+    bottom: 20px;
+    transition: 0.15s;
+    font-size: 22px;
+  }
+}
